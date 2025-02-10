@@ -38,7 +38,7 @@ def calculate():
     weight_text = my_entry.get().strip()
     height_text = my_entry2.get().strip()
 
-    if not weight_text or not height_text:  # Boş olup olmadığını kontrol et
+    if not weight_text or not height_text:  # Boş olup olmadığını kontrol ediyoruz
         result_label.config(text="Enter both weight and height!")
         return
     try:
